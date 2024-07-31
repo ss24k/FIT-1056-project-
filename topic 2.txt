@@ -1,0 +1,33 @@
+Condiionals and loops
+
+Empty Statement
+The simplest statement is the empty statement i.e. a statement which does nothing.
+In Python, the empty statement is the pass statement.
+It is written as:
+Whenever the interpreter encounters a pass statement, Python does nothing and
+simply moves to the next statement in the flow of control. The pass statement is a
+do nothing statement i.e. empty statement or a null operation statement.
+
+
+Conditional Statement using if
+The if statements are the conditional statements in Python that implement
+selection constructs. If statement checks for a condition, if the condition
+evaluates to true, a course of action is followed otherwise that course of action
+is ignored but another course of action is followed.
+The simplest form of if statement tests a condition and if the condition
+evaluates to true, it carries out some instructions but does nothing if the
+condition evaluates to false. where statement may be a single statement, a compound statement
+or just a pass statement.
+
+Programs
+1. Write a Menu driven program to calculate the surface area and volume of a
+cube, cuboid or sphere depending upon the user’s choice.
+2. Write a program to input a number. If it is an even number print its square
+otherwise print its cube.
+3. Write a program to input principal amount and time. If the time is more than
+10 years, print the simple interest with a rate of 8% p.a. Otherwise print it
+with 12 % p.a.
+4. Write a program to check if a year is leap year or not. If a year is divisible by 4
+then it is leap year but if the year is century year like 2000, 1900, 2100 then it
+must be divisible by 400.
+

@@ -1,0 +1,105 @@
+Introduction to python and Basic Data types
+
+youtube link - https://www.youtube.com/watch?v=KrToaEvDzdk
+
+Python Basics
+Python is a case-sensitive language.
+It means Python differentiates between upper and lower case alphabets.
+For example, Print and print are two different words for Python.
+Print is a just a word and not a command, whereas print is a valid command in
+Python.
+
+String literals
+The text enclosed within quotes forms a string literal in Python. For
+example, "a","aa",'a' are all string literals in Python. A string literal is
+a sequence of characters within quotes (single, double or triple) .
+One can form a string literal by enclosing text in both forms of quotes -
+single or double.
+
+Escape sequences
+Python also allows non graphic characters in string values. Non
+graphic characters are those which cannot be typed from the
+keyboard directly, example backspace, tab, carriage return etc.
+These non graphic characters can be represented by using escape
+sequences. An escape sequence is represented by a \ (backslash)
+followed by one or more characters.
+
+operators
+They are tokens which trigger some computation when applied
+to variables or other objects in an expression.
+Variables and objects to which the computation applies are
+called operands. So an operator requires operands to work on.
+
+comments
+Comments are used in Python program to allow the programmer to
+insert small explanatory notes or description to enhance readability or
+understandability of the program.
+Python Interpreter does not execute the code given as comment.
+Comments can be given as a Single Line Comment (#) or a MultiLine
+Comment (''' ''')
+
+input statement
+In Python, data is input from the user during script execution using input()
+function.
+The input() function takes one argument (called prompt). This argument is
+generally a string prompting the user to enter a value. During execution,
+input() shows the prompt to the user and waits for the user to input a value
+from the keyboard. When the user enters value from the keyboard, input()
+returns this value to the script. In almost all cases, we store this value in a
+variable.
+
+Data and DataTypes
+Data can be of many types viz. Character, integer, real, string etc.
+Numbers without fractions indicate integer data, number with
+fractions represent real data, True and False indicate boolean data,
+anything enclosed within quotes indicate string data in Python. Since
+the data to be dealt with are of many types, a programming language
+must be capable to handle all types of data.
+
+int - These are whole numbers, having no fractional parts. They are numeric values
+with no decimal point. They can be positive or negative.
+float - A number containing a decimal point or an exponent sign represents float data
+type. The float data type can include both positive and negative floating point
+numbers. 
+
+complex - Mathematically, a complex number is a number of the form A+Bi, where A
+represents the real part and i is the imaginary number. The real and imaginary part
+of a complex number are floating point number.
+Python represents complex number using complex data type by specifying the
+number in the form real + imag j i.e the imaginary part of the number in Python is
+represented by j (instead of i).
+
+string - A string data type lets you hold string data i.e, any number of valid characters
+enclosed in a set of quotation marks. A string can hold any type of known characters
+ie., letters, numbers and special characters.
+A Python string is a sequence of characters and each character can be individually
+accessed using its index. Strings are stored as individual characters in contiguous
+locations, with two way index for each location.
+
+List - represents a list of comma separated values of any data type between
+square brackets ([ ]).
+
+Tuple - It is a ordered collection of elements that cannot be changed i.e.
+they are not modifiable (immutable). Tuples are group of comma
+separated values of any data type within parentheses().
+
+NOne - None is a special data type with a single value. It is used to signify the absence of
+value in a situation. None supports no special operations, and it is neither False nor 0
+(zero).
+
+Mutale and Immutable -
+Variables whose values can be changed after they are created and
+assigned are called mutable.
+Variables whose values cannot be changed after they are created and
+assigned are called immutable. In Python, the following data types are
+immutable :
+integers, floating point numbers, string, boolean, tuples
+When an attempt is made to update the value of an immutable
+variable, the old variable is destroyed and a new variable is created by
+the same name in memory.
+Python data types can be classified into mutable and immutable.
+
+
+
+
+

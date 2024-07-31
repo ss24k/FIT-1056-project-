@@ -1,0 +1,38 @@
+"CodeVenture - Help Guide is a Python teaching app designed to assist both students and parents on their coding journey. If you encounter any issues or have questions, please consider the following:
+
+Assistance for Students:
+
+Syntax Errors: These are common mistakes in coding, usually related to grammatical or structural errors. To address them:
+
+Carefully review your code to identify the line with the error.
+Double-check formatting, punctuation, and spelling.
+Ensure parentheses, quotation marks, and brackets are opened and closed correctly.
+Pay attention to proper code indentation since Python is sensitive to whitespace.
+NameError: This error occurs when Python encounters an undefined variable or function. To resolve it:
+
+Verify the name of the variable or function causing the problem.
+Confirm that your previously defined code matches your intention.
+Check for typos or case-sensitive issues in the name.
+Error in Indentation (IndentationError): This error arises from problems with whitespace in your code. To fix it:
+
+Ensure consistent indentation within code blocks.
+Use either tabs or spaces consistently within one block to prevent indentation issues.
+Index Error (IndexError): This occurs when trying to access an element with an invalid index in a list, tuple, or string. To address it:
+
+Use the correct index to access the element.
+Ensure the index stays within the bounds of the data structure.
+Remember that Python indexing starts at 0.
+Key Error (KeyError): A KeyError occurs when attempting to access a dictionary key that doesn't exist. To handle it:
+
+Verify if the value you're using for key access is present in the dictionary.
+Ensure the key is case-sensitive and error-free.
+Never-ending Cycles: If a loop doesn't have a proper exit condition, it can become an infinite loop. To take action:
+
+Review the loop's exit condition, such as the "while" or "for" statement, to make sure it ultimately evaluates to False.
+Insert print statements to help debug and identify issues.
+If you encounter issues beyond these common errors, consider the following:
+
+Carefully examine both your code and the error message.
+Look for solutions to your specific problem online.
+If problems persist, don't hesitate to contact our support staff at teacher.codeventure@gmail.com. We're here to help!
+Remember, learning to code involves trial and error. Embrace mistakes as an essential part of your learning journey. Enjoy your time with programming!"

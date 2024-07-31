@@ -1,0 +1,19 @@
+Iterative statements or loops are an essential concept in programming, allowing for the repetition of a set of statements based on a condition. In Python, you can achieve this using for and while loops, along with the range() function and membership operators "in" and "not in." Here's a shortened explanation of these concepts:
+
+Iteration in Python: It involves repeating a set of statements as long as a condition is true. The set of statements executed repeatedly is called the loop body, and the condition that determines when the loop stops is the exit condition.
+
+For Loop: The for loop in Python is used to process items in a sequence (e.g., a list or string) one by one.
+
+Using "in" and "not in" operators: "in" checks if a value is present in a sequence and returns true if it is, while "not in" returns true if the value is not present in the sequence.
+
+While Loop: The while loop is used for repeated execution as long as a specified condition remains true. It consists of an initialisation expression, a test expression, the loop body, and an update expression.
+
+Loop Control Elements: Every while loop has four elements:
+
+Initialisation expression: Initializes the loop variable before the loop begins.
+Test expression: Determines whether the loop body will be executed.
+Body of the loop: Contains the statements to be executed repeatedly.
+Update expression: Modifies the loop variable's value and is placed inside the loop body.
+Continue Statement: It is used to skip the execution of the current iteration of a loop and move to the next iteration. This doesn't terminate the loop.
+
+In summary, Python supports both for and while loops for iteration. The "in" and "not in" operators help with membership checks, and the continue statement allows you to skip the current iteration and proceed to the next.
